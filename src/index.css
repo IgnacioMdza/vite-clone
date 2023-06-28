@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(27, 27, 27);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bodyContainer{
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+.headerTitleDiv{
+  width: 55%;
+}
+
+.headerTitleDiv h1{
+  font-size: 60px;
+  background: linear-gradient(rgb(53, 191, 255), rgb(212, 0, 255));
+  -webkit-background-clip: text;
+  color: transparent;
+  margin: 0px 0px 10px 0px;
+}
+
+.headerTitleDiv h2{
+  font-size: 50px;
+  color: #dadada;
+  margin: 0px 0px 10px 0px;
+}
+
+.headerTitleDiv h3{
+  font-size: 24px;
+  color: #868686;
+  margin: 0px 0px 20px 0px;
+}
+
+.headerImgDiv{
+  width: 45%;
+  text-align: center;
+}
+
+.headerImgDiv img{
+  width: 350px;
+  /* background-image: linear-gradient(-45deg, rgb(189, 52, 254) 50%, rgb(71, 202, 255) 50%);  */
+}
+
+.buttonsDiv{
+  display: flex;
+  gap: 10px;
+}
+
+.buttonsDiv button{
+  border-radius: 40px;
+  border: 0.5px rgb(83, 83, 83) solid;
+  color: #ffffff;
+  font-size: 14px;
+  height: 40px;
+  padding: 0 15px;
+  background-color: rgb(49, 49, 54);
+  cursor: pointer;
+}
+
+.buttonsDiv button:hover{
+  border-radius: 40px;
+  border: 0.5px rgb(56, 53, 255) solid;
+  color: #ffffff;
+  font-size: 14px;
+  height: 40px;
+  padding: 0 15px;
+  background-color: rgb(56, 53, 255);
+  cursor: pointer;
+}
+
+.cardsSection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px
+}
+
+.card{
+  background-color: rgba(43, 43, 43, 0.75);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: right;
+  gap: 15px;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.cardIconDiv{
+  padding: 10px 0;
+}
+
+.cardIcon{
+  background-color: rgb(27, 27, 27);
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 20px;
+  font-style: normal;
+}
+
+.cardTitle {
+  font-size: 15px;
+  color: white;
+  margin: 0px;
+}
+
+.cardParagraph {
+  color: rgb(146, 146, 146);
+  font-size: 12px;
+  margin: 0px;
+}
